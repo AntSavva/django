@@ -1,0 +1,77 @@
+.first{
+    padding: 200px 0;
+}
+
+body{
+    background-color: rgb(17, 16, 16);
+    color: white;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+:root{
+    --color: #05b1b1;
+    --color2: #52339a;
+}
+
+header, footer, section{
+    padding: 100px 0;
+}
+
+header{
+    padding: 400px 0;
+}
+
+header, footer{
+    background: url(../img/pattern.png), var(--color);
+    background: url(../img/pattern.png), -moz-linear-gradient(left, var(--color) 0%, var(--color2) 100%);
+    background: url(../img/pattern.png), -webkit-linear-gradient(left, var(--color) 0%,var(--color2) 100%);
+    background: url(../img/pattern.png), linear-gradient(to right, var(--color) 0%,var(--color2) 100%);
+    filter: url(../img/pattern.png), progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color), endColorstr=var(--color2),GradientType=1 );
+    background-size: contain;
+}
+
+.itd_play{
+    width: 50px;
+    height: 50px;
+    background: var(--color);
+    margin: 30px auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.itd_play:hover{
+    background: var(--color2);
+}
+
+.itd_triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent var(--bs-white);
+    margin: 0 -3px 0 0;
+}
+
+.btn-itd{
+    display: block;
+    width: 200px;
+    border-radius: 15px;
+    background-color: #52339a;
+    margin: 0 auto;
+    color: white;
+    text
+}
